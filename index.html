@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="shortcut icon" href="./assets/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+       
+
+    </header>
+
+    <main class="contenedor_principal">
+
+        <img class="imagen_logo" src="assets/Logo.png">
+
+
+        <section class="contenido_encriptar">
+
+            <textarea 
+                class="ingresartexto" 
+                name="texto_ingresado"
+                id="texto_ingrsado"
+                cols="30"
+                rows="10"
+                placeholder="Ingrese texto aquí"></textarea>
+
+
+            <div class="indicanciones">
+
+                <img src="./assets/bi_exclamation-circle-fill.png" alt="Imagen exclamcion">
+                <p class="indicacion_texto">Solo letras minúsculas y sin acentos</p>
+
+            </div>
+            
+  
+            <div class="botonera">
+                <button 
+                    class="btn_1" 
+                    type="button" 
+                    onclick="encriptar()">Encriptar</button>
+                <button 
+                    class="btn_2" 
+                    type="button" 
+                    onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+        </section>
+
+        <section class="texto_encriptado">
+
+            <img class="muneco" src="./assets/Muneco.png" 
+            alt="Imagen muneco" id="muneco">
+
+            <p  class="mostrar_mensaje" 
+                id="mostrar_mensaje" cols="30" 
+                rows="10"></p>
+
+            <div class="mensaje_encriptado" id="mensaje_encriptado">
+
+                <h2 class="titulo_mensaje" 
+                    id="titulo_mensaje">Ningún mensaje fue encontrado</h2>
+
+                <p  class="parrafo_mensaje" 
+                    id="parrafo_mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            </div>
+
+            <button 
+                    class="btn_3" 
+                    type="button" 
+                    id="btn_3"
+                    onclick="copiar()">Copiar</button>
+
+        </section>
+
+        
+    </main>
+
+    <footer class="footer">
+
+        <p>Desarrollado por Staniek Vasquez Ramirez</p>
+
+    </footer>
+    
+</body>
+<script src="index.js"></script>
+</html>
