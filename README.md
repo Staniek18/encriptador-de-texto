@@ -45,7 +45,7 @@ Las llaves de encriptación utilizadas son:
 
 #### Descargar el Proyecto
 
-[Descargar Encriptador de Texto](URL_DESCARGA)
+[Descargar Encriptador de Texto](https://github.com/Staniek18/encriptador-de-texto/archive/refs/heads/main.zip)
 
 #### Probar Directamente
 
